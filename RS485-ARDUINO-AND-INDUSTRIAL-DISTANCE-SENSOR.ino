@@ -93,7 +93,7 @@ if(Serial.available())
       Myfont::Draw(0, 'L');
       Myfont::Draw(9, 'L');
     }
-  else if ((wordx > 250)& (wordx < 4020))
+  else if ((wordx >= 250)& (wordx <= 4020))
   {
   LedSign::Clear();
   // first digit - thousand
